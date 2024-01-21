@@ -1,0 +1,20 @@
+RewriteEngine On
+
+#Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Remove .php extension for all files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Custom Error Pages
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.php
+
+# Rewrite "index" to root directory
+RewriteRule ^index$ / [L]
+
+# Rewrite "Homepage" to root directory
+RewriteRule ^Homepage$ / [L]
