@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+    apache:
+      container_name: apache
+      dockerfile: Dockerfile
+      image: httpd:2.4.58
+      ports:
+        - 8000:80
+      volumes:
+        - ./:/var/www/html
+    php:
+      container_name: php
+      image: php:7.4.15-apache
+      dockerfile: Dockerfile
+      volumes:
+        - ./:/var/www/html
+      environment:
+        - APACHE_RUN_USER=www-data
+        - APACHE_RUN_GROUP=www-data
+        - APACHE_PID_FILE /var/run/apache2.pid
+        - APACHE_RUN_DIR /var/run/apache2
+        - APACHE_LOCK_DIR /var/lock/apache2
+        - APACHE_LOG_DIR /var/log/apache2
+      ports:
+        - 9000:9000

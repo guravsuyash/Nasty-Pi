@@ -1,0 +1,80 @@
+[08-Dec-2023 07:05:24 UTC] PHP Fatal error:  Uncaught Error: Class 'hCaptcha' not found in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 21
+[08-Dec-2023 07:05:43 UTC] PHP Fatal error:  Uncaught Error: Class 'hCaptcha' not found in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 21
+[08-Dec-2023 07:07:02 UTC] PHP Fatal error:  Uncaught Error: Class 'hCaptcha' not found in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 21
+[08-Dec-2023 07:18:05 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 37
+[08-Dec-2023 07:18:05 UTC] PHP Warning:  file_get_contents(https://hcaptcha.com/siteverify): failed to open stream: no suitable wrapper could be found in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 37
+[08-Dec-2023 07:18:27 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 37
+[08-Dec-2023 07:18:27 UTC] PHP Warning:  file_get_contents(https://hcaptcha.com/siteverify): failed to open stream: no suitable wrapper could be found in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 37
+[08-Dec-2023 07:18:33 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 37
+[08-Dec-2023 07:18:33 UTC] PHP Warning:  file_get_contents(https://hcaptcha.com/siteverify): failed to open stream: no suitable wrapper could be found in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 37
+[08-Dec-2023 07:19:59 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 37
+[08-Dec-2023 07:19:59 UTC] PHP Warning:  file_get_contents(https://hcaptcha.com/siteverify): failed to open stream: no suitable wrapper could be found in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 37
+[08-Dec-2023 07:21:37 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 37
+[08-Dec-2023 07:21:37 UTC] PHP Warning:  file_get_contents(https://hcaptcha.com/siteverify): failed to open stream: no suitable wrapper could be found in /home/learnsupport/public_html/NightHawkEnterprises/send_email.php on line 37
+[08-Dec-2023 11:06:04 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/Services.php on line 2
+[08-Dec-2023 11:06:04 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/Services.php on line 2
+[08-Dec-2023 11:06:04 UTC] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/Services.php on line 498
+[08-Dec-2023 11:06:04 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/Services.php on line 498
+[08-Dec-2023 11:08:57 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/Services.php on line 2
+[08-Dec-2023 11:08:57 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/Services.php on line 2
+[08-Dec-2023 11:08:57 UTC] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/Services.php on line 498
+[08-Dec-2023 11:08:57 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/Services.php on line 498
+[08-Dec-2023 11:21:09 UTC] PHP Warning:  include(header): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 2
+[08-Dec-2023 11:21:09 UTC] PHP Warning:  include(): Failed opening 'header' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 2
+[08-Dec-2023 11:21:09 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:21:09 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:24:28 UTC] PHP Warning:  include(header): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 2
+[08-Dec-2023 11:24:28 UTC] PHP Warning:  include(): Failed opening 'header' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 2
+[08-Dec-2023 11:24:28 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:24:28 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:26:53 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:26:53 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:27:58 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:27:58 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:29:19 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:29:19 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:29:36 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:29:36 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:29:48 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:29:48 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:30:47 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:30:47 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:30:55 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:30:55 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:30:59 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:30:59 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:31:03 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:31:03 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:31:08 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:31:08 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:33:35 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:33:35 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:34:02 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:34:02 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:34:03 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:34:03 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:39:20 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:39:20 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:39:35 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:39:35 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:57:14 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 11:57:14 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 12:10:21 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 12:10:21 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 12:14:25 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[08-Dec-2023 12:14:25 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[18-Jan-2024 10:11:08 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[18-Jan-2024 10:11:08 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[18-Jan-2024 10:11:47 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[18-Jan-2024 10:11:47 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[18-Jan-2024 10:11:52 UTC] PHP Warning:  include(footer): failed to open stream: No such file or directory in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
+[18-Jan-2024 10:11:52 UTC] PHP Warning:  include(): Failed opening 'footer' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/learnsupport/public_html/NightHawkEnterprises/AboutUs.php on line 252
