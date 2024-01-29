@@ -39,7 +39,7 @@ RUN a2enmod rewrite \
 
 # Donwload all Files
 RUN cd /var/www/html/ && \
-git clone https://github.com/guravsuyash/Nasty-Pi.git \
+git clone https://github.com/guravsuyash/Nasty-Pi.git &&\
 cd Nasty-Pi && mv * ../
 
 # Set proper permissions
