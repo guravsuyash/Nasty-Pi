@@ -37,7 +37,7 @@ RUN a2enmod rewrite \
     && export LANG=en_US.UTF-8
 
 # Donwload all Files
-RUN git clone 
+RUN git clone https://github.com/guravsuyash/Nasty-Pi.git 
 
 # Set proper permissions
 RUN chown -R www-data:www-data /var/www/html/ \
