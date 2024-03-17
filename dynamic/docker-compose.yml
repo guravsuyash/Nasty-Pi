@@ -1,0 +1,39 @@
+version: '3'
+
+services:
+  app:
+    image: dynamic  # Replace with your Laravel app image
+    container_name: laravel-app
+    ports:
+      - "80:80"  # Adjust port mapping as needed
+      - "443:443"  # SSL port
+#    volumes:
+#      - ./laravel-app:/var/www/html  # Mount your Laravel app directory
+    environment:
+      - DB_CONNECTION=mysql
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_DATABASE=mydb
+      - DB_USERNAME=admin
+      - DB_PASSWORD=admin
+    depends_on:
+      - db
+    networks:
+      - laravel-network
+
+  db:
+    image: dynamic-mysql
+    container_name: laravel-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: mydb
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+    ports:
+      - "3306:3306"  # Adjust port mapping as needed
+    networks:
+      - laravel-network
+networks:
+  laravel-network:
+    driver: bridge
