@@ -1,8 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteRule ^vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php$ - [F]
-</IfModule>
